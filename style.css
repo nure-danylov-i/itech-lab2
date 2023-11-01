@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+    img#nure {
+	width: 600px;
+    }
+}
+@media screen and (max-width: 800px) {
+    img#nure {
+	width: 400px;
+    }
+}
+
+h1, h2, p, span{
+    font-family: sans-serif;
+}
+p, span {
+    font-size: 125%;
+}
+
+div.rectangle {
+    width: 25%;
+    padding: 1em;
+    margin: 1em;
+    border: solid 2px black;
+}
+div#floating {
+    float: left;
+    background: #ccc;
+}
+div#absolute {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    background: #5c6;
+}
+
+#text p::first-letter {
+    color: red;
+    font-size: 150%;
+}
